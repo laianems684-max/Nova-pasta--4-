@@ -1,0 +1,414 @@
+
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Café Encanto</title>
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css"
+    rel="stylesheet">
+</head>
+
+<body>
+
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+
+        <div class="container">
+
+            <a class="navbar-brand" href="#">
+                Café Encanto
+            </a>
+
+            <button class="navbar-toggler"
+                    type="button"
+                    data-bs-toggle="collapse"
+                    data-bs-target="#menu">
+
+                <span class="navbar-toggler-icon"></span>
+
+            </button>
+
+            <div class="collapse navbar-collapse" id="menu">
+
+                <ul class="navbar-nav ms-auto">
+
+                    <li class="nav-item">
+                        <a class="nav-link active" href="#inicio">Início</a>
+                    </li>
+
+                    <li class="nav-item">
+                        <a class="nav-link" href="#cardapio">Cardápio</a>
+                    </li>
+
+                    <li class="nav-item">
+                        <a class="nav-link" href="#contato">Contato</a>
+                    </li>
+
+                </ul>
+
+            </div>
+
+        </div>
+
+    </nav>
+
+    <section id="inicio" class="bg-warning-subtle py-5">
+
+        <div class="container text-center">
+
+            <h1 class="display-4 fw-bold text-dark">
+                Bem-vindo ao Café Encanto!
+            </h1>
+
+            <p class="lead text-secondary">
+                O melhor café para deixar seu dia mais especial.
+            </p>
+
+            <a href="#cardapio" class="btn btn-dark btn-lg">
+                Ver cardápio
+            </a>
+
+        </div>
+
+    </section>
+
+    <section class="container my-5">
+
+        <h2 class="text-center text-dark mb-4">
+            Conheça nosso espaço
+        </h2>
+
+        <div id="carouselCafe"
+             class="carousel slide"
+             data-bs-ride="carousel">
+
+            <div class="carousel-inner">
+
+                <div class="carousel-item active">
+
+                    <img
+                        src="https://images.unsplash.com/photo-1495474472287-4d71bcdd2085?auto=format&fit=crop&w=1200&q=80"
+                        class="d-block w-100 rounded"
+                        alt="Café e alimentos"
+                        style="height: 400px; object-fit: cover;">
+
+                </div>
+
+                <div class="carousel-item">
+
+                    <img
+                        src="https://images.unsplash.com/photo-1509042239860-f550ce710b93?auto=format&fit=crop&w=1200&q=80"
+                        class="d-block w-100 rounded"
+                        alt="Xícara de café"
+                        style="height: 400px; object-fit: cover;">
+
+                </div>
+
+                <div class="carousel-item">
+
+                    <img
+                        src="https://images.unsplash.com/photo-1445116572660-236099ec97a0?auto=format&fit=crop&w=1200&q=80"
+                        class="d-block w-100 rounded"
+                        alt="Interior de cafeteria"
+                        style="height: 400px; object-fit: cover;">
+
+                </div>
+
+            </div>
+
+            <button class="carousel-control-prev"
+                    type="button"
+                    data-bs-target="#carouselCafe"
+                    data-bs-slide="prev">
+
+                <span style="background-color: #333;
+                             padding: 12px 18px;
+                             border-radius: 50%;
+                             color: white;
+                             font-size: 25px;">
+                    &#10094;
+                </span>
+
+            </button>
+
+            <button class="carousel-control-next"
+                    type="button"
+                    data-bs-target="#carouselCafe"
+                    data-bs-slide="next">
+
+                <span style="background-color: #333;
+                             padding: 12px 18px;
+                             border-radius: 50%;
+                             color: white;
+                             font-size: 25px;">
+                    &#10095;
+                </span>
+
+            </button>
+
+        </div>
+
+    </section>
+
+    <div class="container my-4">
+
+        <div class="alert alert-warning text-center" role="alert">
+
+            <h4 class="alert-heading">
+                Promoção especial!
+            </h4>
+
+            <p>
+                Na compra de um café e um bolo,
+                ganhe 10% de desconto!
+            </p>
+
+        </div>
+
+    </div>
+    
+    <div class="container text-center my-4">
+
+    <div class="dropdown">
+
+        <button
+            class="btn btn-warning dropdown-toggle"
+            type="button"
+            data-bs-toggle="dropdown">
+
+            Ver nosso cardápio
+
+        </button>
+
+        <ul class="dropdown-menu">
+
+            <li>
+                <a class="dropdown-item" href="cardapio.html#cafes">
+                    Cafés
+                </a>
+            </li>
+
+            <li>
+                <a class="dropdown-item" href="cardapio.html#sobremesas">
+                    Sobremesas
+                </a>
+            </li>
+
+            <li>
+                <a class="dropdown-item" href="cardapio.html#bebidas">
+                    Bebidas geladas
+                </a>
+            </li>
+
+        </ul>
+
+    </div>
+
+    </div>
+
+    <section id="cardapio" class="container my-5">
+
+        <h2 class="text-center text-dark fw-bold mb-4">
+            Nosso Cardápio
+        </h2>
+
+        <div class="row g-4">
+
+            <div class="col-md-4">
+
+                <div class="card h-100 shadow">
+
+                    <img
+                        src="https://images.unsplash.com/photo-1572442388796-11668a67e53d?auto=format&fit=crop&w=800&q=80"
+                        class="card-img-top"
+                        alt="Cappuccino">
+
+                    <div class="card-body text-center">
+
+                        <h5 class="card-title">
+                            Cappuccino
+                        </h5>
+
+                        <p class="card-text">
+                            Café cremoso com leite vaporizado
+                            e uma deliciosa espuma.
+                        </p>
+
+                        <h5 class="text-success">
+                            R$ 12,00
+                        </h5>
+
+                        <button class="btn btn-dark">
+                            Escolher
+                        </button>
+
+                    </div>
+
+                </div>
+
+            </div>
+
+            <div class="col-md-4">
+
+                <div class="card h-100 shadow">
+
+                    <img
+                        src="https://images.unsplash.com/photo-1510707577719-ae7c14805e3a?auto=format&fit=crop&w=800&q=80"
+                        class="card-img-top"
+                        alt="Café expresso">
+
+                    <div class="card-body text-center">
+
+                        <h5 class="card-title">
+                            Café Expresso
+                        </h5>
+
+                        <p class="card-text">
+                            Um café intenso e aromático
+                            para começar bem o dia.
+                        </p>
+
+                        <h5 class="text-success">
+                            R$ 8,00
+                        </h5>
+
+                        <button class="btn btn-dark">
+                            Escolher
+                        </button>
+
+                    </div>
+
+                </div>
+
+            </div>
+
+            <div class="col-md-4">
+
+                <div class="card h-100 shadow">
+
+                    <img
+                        src="https://images.unsplash.com/photo-1578985545062-69928b1d9587?auto=format&fit=crop&w=800&q=80"
+                        class="card-img-top"
+                        alt="Bolo de chocolate">
+
+                    <div class="card-body text-center">
+
+                        <h5 class="card-title">
+                            Bolo de Chocolate
+                        </h5>
+
+                        <p class="card-text">
+                            Bolo macio e delicioso,
+                            perfeito para acompanhar seu café.
+                        </p>
+
+                        <h5 class="text-success">
+                            R$ 10,00
+                        </h5>
+
+                        <button class="btn btn-dark">
+                            Escolher
+                        </button>
+
+                    </div>
+
+                </div>
+
+            </div>
+
+        </div>
+
+    </section>
+
+    <section id="contato" class="bg-warning-subtle py-5">
+
+        <div class="container">
+
+            <h2 class="text-center fw-bold mb-4">
+                Entre em contato
+            </h2>
+
+            <div class="row justify-content-center">
+
+                <div class="col-md-6">
+
+                    <form>
+
+                        <div class="mb-3">
+
+                            <label class="form-label">
+                                Nome
+                            </label>
+
+                            <input
+                                type="text"
+                                class="form-control"
+                                placeholder="Digite seu nome">
+
+                        </div>
+
+                        <div class="mb-3">
+
+                            <label class="form-label">
+                                E-mail
+                            </label>
+
+                            <input
+                                type="email"
+                                class="form-control"
+                                placeholder="Digite seu e-mail">
+
+                        </div>
+
+                        <div class="mb-3">
+
+                            <label class="form-label">
+                                Mensagem
+                            </label>
+
+                            <textarea
+                                class="form-control"
+                                rows="4"
+                                placeholder="Digite sua mensagem"></textarea>
+
+                        </div>
+
+                        <div class="d-flex justify-content-center">
+
+                            <button
+                                type="submit"
+                                class="btn btn-dark">
+
+                                Enviar mensagem
+
+                            </button>
+
+                        </div>
+
+                    </form>
+
+                </div>
+
+            </div>
+
+        </div>
+
+    </section>
+    <footer class="bg-dark text-white text-center py-3">
+
+        <p class="mb-0">
+             2026 Café Encanto - Todos os direitos reservados.
+        </p>
+
+    </footer>
+
+
+    <!-- JAVASCRIPT DO BOOTSTRAP -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+
+</body>
+
+</html>
